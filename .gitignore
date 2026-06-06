@@ -1,0 +1,6 @@
+.env
+.vscode/
+logs/
+.tmp.driveupload/
+__pycache__/
+*.pyc
