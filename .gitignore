@@ -1,6 +1,15 @@
 .env
 .vscode/
-logs/
 .tmp.driveupload/
 __pycache__/
 *.pyc
+
+# Keep the data/ and logs/ folder structure (via .gitkeep files),
+# but ignore every file inside them.
+data/**/*
+!data/**/
+!data/**/.gitkeep
+
+logs/**/*
+!logs/**/
+!logs/**/.gitkeep
